@@ -1,0 +1,154 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(img/OIG2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+    font: 20px;
+    float: right;
+    margin-top: 20px;
+    animation: animation 3s;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.topbar{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all 2s;
+    padding: 15px;
+    border-radius: 70%;
+}
+.topbar:hover{
+    color: #474747;
+    font-size: 35px;
+    box-shadow: 0.3rem 0.7rem 5rem black;
+}
+#logo{
+    border-radius: 100%;
+    transition: all 3s;
+    animation: animation2 3s;
+}
+#logo:hover{
+    width: 200px;
+    cursor: pointer;
+}
+#intro{
+    width: 500px;
+    text-align: center;
+    margin-left: 6rem;
+    font-size: 30px;
+    transition: all 3s;
+    animation: animation3 3s;
+}
+h2{
+    color: darkslategray;
+}
+#intro:hover{
+    background-color: rgb(191, 180, 162);
+    padding: 20px;
+    box-shadow: 0.1rem 1rem 3rem black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#about{
+    margin-top: 150px;
+    background-color: blanchedalmond;
+    padding: 30px;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+#about2{
+    text-align: center;
+}
+.inter{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0.2rem 0.3rem 0.4rem 0.2rem black;
+    width: 140px;
+    padding: 20px
+}
+.exter{
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    width: 190px;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    animation: animation2 6s;
+}
+
+#subAbout{
+    background-color: #828282;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin: 0px;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+.inter img{
+    width: 120px;
+    height: 150px;
+}
+#Projects h1{
+    font-size: 40px
+}
+#Projects{
+    text-align: center;
+}
+article img{
+    width: 400px;
+    border-radius: 90px;
+}
+@keyframes animation{
+    from{
+        translate: -100%;
+    }
+    to{
+        translate: 0%;
+    }
+}
+@keyframes animation2{
+    from{
+        translate: 100%;
+    }
+    to{
+        translate: 0%;
+    }
+}
+@keyframes animation3{
+    from{
+        width: 200px;
+        font-size: 10px;
+    }
+    to{
+
+    }
+}
+article{
+    font-size: 25px;
+    display: inline-block;
+    background-color: bisque;
+    padding: 40px;
+    border-radius: 60px;
+    margin: 30px;
+    animation: animation 3s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
